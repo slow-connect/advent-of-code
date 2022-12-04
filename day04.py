@@ -41,9 +41,7 @@ def part2(input):
     return count
 
 input = open('day04_imput.txt', 'r')
-
 print(part1(input))
 
 input = open('day04_imput.txt', 'r')
-
 print(part2(input))

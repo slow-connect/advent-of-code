@@ -1,6 +1,4 @@
-
-
-def fourdifferent(string):
+def different(string):
     for i in range(len(string)):
         for j in range(len(string)):
             if i != j:
@@ -10,12 +8,12 @@ def fourdifferent(string):
 
 def part1(input):
     for i in range(len(input) - 4):
-        if fourdifferent(input[i:i+4]):
+        if different(input[i:i+4]):
             return i+4
 
 def part2(input):
     for i in range(len(input) - 14):
-        if fourdifferent(input[i:i+14]):
+        if different(input[i:i+14]):
             return i+14
 
 

@@ -18,7 +18,6 @@ def assert_direction(str):
         warnings.warn('Direction cannot be asserted')
 
 def nextposition(head, tail):
-    # print(type(head))
     if not tail_neibough(tail, head):
         if tail[0] == head[0]:
             if tail[1] < head[1]:

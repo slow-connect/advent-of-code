@@ -70,5 +70,5 @@ def part1(input):
     return sandblock - 1
 
 
-input = open('day14_input_test.txt', 'r')
+input = open('day14_input.txt', 'r')
 part1(input)
